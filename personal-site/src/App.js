@@ -17,10 +17,10 @@ function App() {
         </nav>
       </header>
       <main>
-      <Home></Home>
-      <Portfolio></Portfolio>
-      <ContactInfo></ContactInfo>
-      <About></About>
+      <Home/>
+      <Portfolio/>
+      <ContactInfo/>
+      <About/>
       </main>
       <footer>
 

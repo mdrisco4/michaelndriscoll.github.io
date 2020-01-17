@@ -7,6 +7,7 @@ class About extends Component {
 
     const About = (
     <div className='About'>
+        <img src="../Pics/photo.jpg" alt='me'></img>
         <div>About</div>
     </div>
     )
