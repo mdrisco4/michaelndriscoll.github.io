@@ -6,7 +6,7 @@ class Home extends Component {
 
     const homePage = (
     <div>
-        <div>yo</div>
+        <div>Home</div>
     </div>
     )
     return (
