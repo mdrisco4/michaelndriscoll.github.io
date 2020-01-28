@@ -1,26 +1,31 @@
 import React/* { Component }*/ from "react";
 import './App.css';
-import Home from './Components/Home.js'
+// import Home from './Components/Home.js'
 import Portfolio from './Components/Portfolio.js'
 import ContactInfo from './Components/ContactInfo.js'
-import About from './Components/About.js'
+// import About from './Components/About.js'
 
 function App() {
   return (
     <div className="App">
       <header className='header nav-menu'>
-        <h1>Michael Driscoll</h1>
-        <nav>
-          <p>social media</p>
-          <p>stuff</p>
-          <p>things</p>
-        </nav>
+        <div className="intro">
+          <h1 className='name'>Michael Driscoll</h1>
+          <img src='' alt='' className='photo'></img>
+          <nav className='header-links'>
+            <h4>RESUME</h4>
+            <h4>LINKEDIN</h4>
+            <h4>GITHUB</h4>
+            <h4>CONTACT</h4>
+            <h4>ABOUT</h4>
+          </nav>
+        </div>
       </header>
       <main>
-      <Home/>
+      {/* <Home/> */}
       <Portfolio/>
       <ContactInfo/>
-      <About/>
+      {/* <About/> */}
       </main>
       <footer>
 

@@ -1,3 +1,16 @@
+.contact-title {
+    text-align: center;
+    font-size: 36px;
+}
+
 .contact-info {
     background-color: yellowgreen;
+    margin: 0;
+    border: 1px solid black;
+  }
+
+  .footer-contact-links {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
   }

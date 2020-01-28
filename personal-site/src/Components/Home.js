@@ -8,7 +8,14 @@ class Home extends Component {
     const homePage = (
     <div className='Home'>
         <h3>Home</h3>
-        <div></div>
+        {/* <nav>
+            <ul>
+                <li>Portfolio</li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </nav> */}
     </div>
     )
     return (

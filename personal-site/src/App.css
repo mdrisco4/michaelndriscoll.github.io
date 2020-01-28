@@ -5,4 +5,34 @@ body {
 header {
   background-color: rgb(78, 78, 80);
   color: white;
+  margin: 0;
+}
+
+.intro {
+  display: flex;
+}
+
+.name {
+  color: goldenrod;
+  font-size: 60px;
+  text-shadow: 5px 5px black;
+}
+
+.photo {
+  height: 200px;
+  width: 200px;
+}
+
+.header-links {
+  display: flex;
+  flex-direction: row;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+h4 {
+  margin: 0 15px 0 15px;
+  color: darkorange;
+  font-size: 20px;
+  text-shadow: 2px 2px #ff0000;
 }

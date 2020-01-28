@@ -7,11 +7,13 @@ class ContactInfo extends Component {
 
     const ContactInfo = (
     <div className='contact-info'>
-        <h2>Contact</h2>
-        <h4>LinkedIn</h4>
-        <h4>Email</h4>
-        <h4>Phone</h4>
-        <h4>Other</h4>
+        <h2 className='contact-title'>Contact</h2>
+        <nav className='footer-contact-links'>
+            <h4>LinkedIn</h4>
+            <h4>Email</h4>
+            <h4>Phone</h4>
+            <h4>Other</h4>
+        </nav>
     </div>
     )
     return (
